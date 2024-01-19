@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Dark/Light</title>
+</head>
+<body>
+
+    <div class="loginBox" id="loginForm">
+
+    <form >
+
+        <div id="header" class="header">
+            <h1>Login</h1>
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+        </div>
+        <!-- final header -->
+
+        <div class="socialBox">
+            <a href="#">
+                <img height="40px" src="assets/img/logoFacebook.png" alt="Facebook" >
+            </a>
+            <a href="#">
+                <img height="40px" src="assets/img/logoGoogle.png" alt="Google">
+            </a>
+            <a href="#">
+                <img height="40px" src="assets/img/logoGithub.png" alt="Github">
+            </a>
+        </div>
+        <!-- final social box -->
+
+        <div class="inputs">
+
+                <label for="user">Name
+                    <div class="inputField">
+                        <i id="userIcon" class="fa-solid fa-user"></i>
+                        <input required type="text" name="user" id="userLogin">
+                    </div>
+                </label>
+
+                <label for="email">E-mail
+                    <div class="inputField">
+                        <i id="envelopeIcon" class="fa-solid fa-envelope"></i>
+                        <input required type="email" name="email" id="emailLogin" placeholder="">
+                    </div>
+                </label>
+
+                <label for="pass">Password
+                    <div class="inputField">
+                        <i id="keyIcon" class="fa-solid fa-key"></i>
+                        <input required type="password" name="pass" id="passLogin">
+                    </div>
+
+                    <div id="forgot">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <!-- final forgot -->
+                </label>
+                
+        </div>
+        <!-- final inputs -->
+
+        <div id="btn-login" class="btn-login">
+            <button type="submit">Login</button>
+        </div>
+        <!-- final button -->
+
+    </form>
+    </div>
+    <!-- final login box -->
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
